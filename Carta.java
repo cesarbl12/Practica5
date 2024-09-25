@@ -10,6 +10,14 @@ public class Carta implements Comparable<Carta>{
         this.tipo = tipo; 
     }
 
+    public int getValor(){
+        return this.valor;
+    }
+
+    public Palo getTipo(){
+        return this.tipo;
+    }
+
     public String getValorString() {
         switch (valor) {
             case 14: return "A";
