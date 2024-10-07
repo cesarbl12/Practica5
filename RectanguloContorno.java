@@ -3,14 +3,14 @@ import java.awt.*;
 /**
  * A rectangle that extends Square but can have different width and height.
  */
-public class Cuadrado extends Square {
+public class RectanguloContorno extends Square {
     private int width;  // Width in pixels
     private int height; // Height in pixels
 
     /**
      * Default constructor. Initializes width and height to specific values.
      */
-    public Cuadrado() {
+    public RectanguloContorno() {
         width = (int) (3 * 41.8);  // Convert 9 cm to pixels
         height = (int) (6 * 41.8); // Convert 6 cm to pixels
         xPosition = 100;
@@ -22,12 +22,12 @@ public class Cuadrado extends Square {
     /**
      * Constructor that sets the position and initializes the rectangle.
      */
-    public Cuadrado(Posicion p1) {
-        xPosition = p1.x+5;
-        yPosition = p1.y+5;
-        width = 100;
-        height = 150;  // Example height
-        color = "white";
+    public RectanguloContorno(Posicion p1) {
+        xPosition = p1.x;
+        yPosition = p1.y;
+        width = 110;
+        height = 160;  // Example height
+        color = "black";
         isVisible = true;
     }
 

@@ -20,9 +20,9 @@ public class Corazon {
     }
 
     public Corazon(Posicion p2) {
-        xPosition = p2.x;
-        yPosition = p2.y;
-        size = 50;
+        xPosition = p2.x + 3;
+        yPosition = p2.y + 15;
+        size = 38;
         color = "red";
         isVisible = true;
     }

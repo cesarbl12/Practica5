@@ -168,7 +168,7 @@ public class Square
     /**
      * Draw the square with current specifications on screen.
      */
-    private void draw()
+    protected void draw()
     {
         if(isVisible) {
             Canvas canvas = Canvas.getCanvas();

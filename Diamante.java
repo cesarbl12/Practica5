@@ -15,15 +15,15 @@ public class Diamante {
         size = 25;
         xPosition = 300;
         yPosition = 200;
-        color = "black";
+        color = "red";
         isVisible = false;
     }
 
     public Diamante(Posicion p2) {
-        xPosition = p2.x;
-        yPosition = p2.y;
+        xPosition = p2.x + 12;
+        yPosition = p2.y + 8;
         size = 25;
-        color = "black";
+        color = "red";
         isVisible = true;
     }
 
